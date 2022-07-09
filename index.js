@@ -18,7 +18,7 @@ client.on('interactionCreate', async interaction => {
     if (explanations) {
         await interaction.reply(`${explanations.matched}: ${explanations.values.join(`\n${explanations.matched}: `)}`);
     } else {
-        await interaction.reply(`No explanations for ${thing} found 😢. Someone should add one here: https://docs.google.com/document/d/1I-isfmQPQJJpkP-54OUiUiVDnwlahjKnWVX392wnEWs/edit`);
+        await interaction.reply(`No explanations for ${thing} found 😢. Someone should add one here: https://docs.google.com/spreadsheets/d/1_xrf21XrTbxfr2PPFmZm9VKtVAnw4fMaf86pn2cK8DM/edit`);
     }
   }
 });
