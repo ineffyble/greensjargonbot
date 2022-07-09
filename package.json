@@ -1,0 +1,20 @@
+{
+  "name": "greensjargonbot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^0.5.0",
+    "discord-api-types": "^0.36.1",
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "googleapis": "39",
+    "got": "^12.1.0",
+    "node-cache": "^5.1.2"
+  },
+  "packageManager": "yarn@3.2.1"
+}
